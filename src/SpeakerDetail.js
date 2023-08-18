@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {memo} from "react";
 import ImageToggleOnScroll from './ImageToggleOnScroll';
 
-const SpeakerDetail = React.memo( 
+const SpeakerDetail = memo( 
   ({
   id,
   firstName,
@@ -36,6 +36,7 @@ const SpeakerDetail = React.memo(
       </div>
     </div>
   );
-});
+}
+);
 
 export default SpeakerDetail;
