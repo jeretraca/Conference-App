@@ -9,7 +9,7 @@
     "start": "next start"
   },
   "keywords": [],
-  "author": "Peter Kellner",
+  "author": "Joseph Ndolo",
   "license": "MIT",
   "dependencies": {
     "next": "^12.3.4",
